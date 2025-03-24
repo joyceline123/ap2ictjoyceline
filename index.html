@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edutrip Taiwan</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #88b6d1;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a90e2;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        header a:hover {
+            color: #ffd700;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #4a90e2;
+            margin-bottom: 10px;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 0 auto 50px;
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #555;
+            text-align: justify;
+        }
+
+        .image-container {
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #4a90e2;
+            color: white;
+            font-size: 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .button:hover {
+            background: #357abd;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            header a {
+                font-size: 16px;
+                margin: 0 10px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            .content p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="agama.html">Agama</a>
+        <a href="pkn.html">PKn</a>
+        <a href="bahasaindonesia.html">Bahasa Indonesia</a>
+        <a href="bahasainggris.html">Bahasa Inggris</a>
+        <a href="ips.html">IPS</a>
+        <a href="bahasamandarin.html">Bahasa Mandarin</a>
+    </header>
+
+    <h1>Selamat Datang di Edutrip Taiwan</h1>
+
+    <div class="content">
+        <p>Edutrip ke Taiwan adalah pengalaman belajar yang sangat berharga bagi saya. Dalam perjalanan ini, saya tidak hanya menjelajahi tempat-tempat menarik, tetapi juga memperdalam pemahaman saya di berbagai mata pelajaran.</p>
+
+        <p>Saya belajar menulis artikel tentang street food Taiwan dalam Bahasa Inggris, berlatih komunikasi dalam Bahasa Mandarin, memahami sejarah Taiwan dalam IPS, serta mendalami firman Tuhan dalam Agama. Ini adalah pengalaman yang luar biasa!</p>
+
+        <div class="image-container">
+            <img src="taiwan.png">
+        </div>
+
+        <a href="#" class="button">Pelajari Lebih Lanjut</a>
+    </div>
+</body>
+</html>
